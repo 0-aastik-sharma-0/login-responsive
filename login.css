@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.all{
+  margin: auto;
+  display: grid;
+  width: 500px;
+  height: 300px;
+  padding: 1rem;
+  text-align: center;
+  margin-top: 150px;
+  border: solid;
+  border-radius: 5px 90px 5px 90px;
+  background: linear-gradient(90deg,orange,purple);
+}
+
+#fname{
+    width: 300px;
+    border-radius: 10px;
+    padding: 6px;
+    margin: auto;
+}
+
+#lname{
+    width: 300px;
+    padding: 6px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+#email{
+    width: 300px;
+    padding: 6px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+#pass{
+    width: 300px;
+    padding: 6px;
+    margin: auto;
+    border-radius: 10px;
+}
+#submit{
+    width: 100px;
+    padding: 5px;
+    margin: 5px auto;
+    border-radius: 5px;
+}
+label{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#submit:hover{
+    color: white;
+    font-weight: bold;
+    background: orange;
+    font-size: 20px;
+    transition: 0.5s;
+}
+@media screen and (max-width: 600px){
+    .all{
+        width: 100%;
+        width: 350;
+        background: lightgreen;
+    }
+}
+
+@media screen and (min-width: 610px){
+    body{ 
+        display: grid;
+        background: url(https://imgs.search.brave.com/9JMwLUAXURUfqsLgqDaWrkDd-UhVcrCvMxs4fLwAhjI/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXM3LmFscGhhY29k/ZXJzLmNvbS80MTEv/NDExODIwLmpwZw);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 1355px 920px;
+        
+
+    }
+}
